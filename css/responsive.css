@@ -1,0 +1,235 @@
+
+
+@media screen and (max-width:1400px) {
+    .home__content{
+        flex-basis: 55%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .menu__item{
+        margin-right: 2rem;
+    }
+    .home__title{
+        font-size: 5rem;
+    }
+    .home__img{
+        width: 34rem;
+    }
+    .community__system {
+        max-width: 28rem;
+        /* padding: 2rem; */
+    }
+    .helping__counts{
+        gap: 2rem;
+        flex-basis: 54%;
+    }
+    .customer__wrapper{
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .marketing__items{
+        justify-content: center;
+    }
+    .demo__title{
+        font-size: 5rem;
+    }
+    .footer-right{
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav__links{
+        display: none;
+    }
+    .home__content{
+        flex-basis: 50%;
+    }
+    .home__img{
+        width: 28rem;
+    }
+    .community__content{
+        justify-content: center;
+    }
+    .unlock__img{
+        max-width: 50rem;
+    }
+    .unlock__content{
+        max-width: none;
+        text-align: center;
+    }
+    .unlock__btn{
+        margin: 3rem auto 0 auto;
+    }
+    .helping__counts{
+        flex-basis: 38%;
+    }
+    .design__img{
+        max-width: 50rem;
+    }
+    .design__content{
+        text-align: center;
+        max-width: none;
+    }
+    .design__btn{
+        margin: 3rem auto 0 auto;
+    }
+    .customer__content{
+        text-align: center;
+    }
+    .customer__img{
+        max-width: 50rem;
+    }
+    /* .footer__form{
+        max-width: 19rem;
+    }
+    .footer-right{
+        gap: 2rem;
+    } */
+
+    .footer__wrapper{
+        gap: 2rem;
+        /* justify-content: flex-start; */
+    }
+    .footer-right{
+        gap: 3rem;
+    }
+    .footer__form{
+        max-width: 20rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .menu{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background-color: #535353;
+        flex-direction: column;
+        justify-content: center;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.3s ease-in;
+    }
+    .mobile-menu--active{
+        height: 28rem;
+        overflow: visible;
+        opacity: 1;
+        padding: 2rem 0;
+    }
+    .nav-toggle--active .nav-toggle__line{
+        background-color: transparent;
+    }
+    .nav-toggle--active .nav-toggle__line::after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .nav-toggle--active .nav-toggle__line::before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .menu__item{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .menu__item:last-child{
+        margin-bottom: 0;
+    }
+    .menu__link{
+        color: #fff;
+    }
+    .nav-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+    }
+    .cover--active{
+        /* display: block; */
+        opacity: 1;
+    }
+    .home__wrapper{
+        flex-direction: column-reverse;
+    }
+    .home__content{
+        flex-basis: auto;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .home__caption{
+        max-width: 27rem;
+        margin: 2.5rem auto;
+    }
+    .home__btn{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .home__photo{
+        flex-basis: auto;
+    }
+    .helping__wrapper{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+        text-align: center;
+    }
+    .helping__counts{
+        flex-basis: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .helping__content{
+        flex-basis: auto;
+        width: 100%;
+    }
+    .helping__title{
+        max-width: none;
+    }
+    .footer__wrapper{
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+    .footer-right{
+        gap: 5rem;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    .community__system{
+        width: 80%;
+        max-width: none;
+    }
+    .unlock__btn{
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+    .design__btn{
+        width: 80%;
+    }
+    .customer__content{
+        padding: 0 2rem;
+    }
+    .marketing-content{
+        width: 80%;
+        max-width: none;
+    }
+    .home__title{
+        font-size: 4rem;
+    }
+    .demo__title{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .marketing-content{
+        width: 100%;
+    }
+}
